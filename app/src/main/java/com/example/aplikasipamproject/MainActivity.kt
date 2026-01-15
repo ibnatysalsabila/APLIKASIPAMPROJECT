@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.aplikasipamproject.ui.theme.APLIKASIPAMPROJECTTheme
+import com.example.aplikasipamproject.uicontroller.route.KuanApp
+import com.example.aplikasipamproject.uicontroller.route.PetaNavigasi
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             APLIKASIPAMPROJECTTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    KuanApp(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
