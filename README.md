@@ -1,4 +1,4 @@
-## Tampilan Aplikasi Klinik KuAn
+## Aplikasi Klinik KuAn
 
 <table>
   <tr>
