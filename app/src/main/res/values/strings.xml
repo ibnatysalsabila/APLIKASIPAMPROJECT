@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">APLIKASIPAMPROJECT</string>
+
+        <string name="loading">Memuat data...</string>
+        <string name="error_message">Terjadi kesalahan: %s</string>
+        <string name="refresh">Segarkan</string>
+        <string name="back">Kembali</string>
+        <string name="save">Simpan</string>
+        <string name="delete">Hapus</string>
+        <string name="edit">Ubah</string>
+
+        <string name="login_title">Masuk ke Kuan</string>
+        <string name="username">Username</string>
+        <string name="password">Password</string>
+        <string name="login_button">Login</string>
+
+        <string name="list_pemilik">Daftar Pemilik Hewan</string>
+        <string name="detail_pemilik">Detail Pemilik</string>
+        <string name="tambah_pemilik">Tambah Pemilik</string>
+        <string name="edit_pemilik">Ubah Data Pemilik</string>
+        <string name="nama_pemilik">Nama Pemilik</string>
+        <string name="no_hp">Nomor WhatsApp</string>
+        <string name="email">Email</string>
+
+        <string name="list_hewan">Daftar Hewan</string>
+        <string name="detail_hewan">Detail Hewan</string>
+        <string name="tambah_hewan">Tambah Hewan</string>
+        <string name="edit_hewan">Ubah Data Hewan</string>
+        <string name="nama_hewan">Nama Hewan</string>
+        <string name="jenis_hewan">Jenis Hewan (Anjing/Kucing)</string>
+
+        <string name="list_layanan">Layanan Medis</string>
+        <string name="detail_layanan">Detail Layanan</string>
+        <string name="tambah_layanan">Tambah Layanan</string>
+        <string name="edit_layanan">Ubah Layanan</string>
+        <string name="nama_layanan">Nama Layanan</string>
+        <string name="deskripsi_layanan">Deskripsi</string>
+        <string name="biaya">Biaya (Rp)</string>
+
+        <string name="list_pemeriksaan">Riwayat Pemeriksaan</string>
+        <string name="detail_pemeriksaan">Detail Pemeriksaan</string>
+        <string name="tambah_pemeriksaan">Tambah Catatan Medis</string>
+        <string name="edit_pemeriksaan">Ubah Catatan Medis</string>
+        <string name="tgl_pemeriksaan">Tanggal Pemeriksaan</string>
+        <string name="catatan_medis">Catatan Medis</string>
+
+
 </resources>
