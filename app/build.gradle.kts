@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "1.9.0"
 }
 
 android {
@@ -37,6 +38,18 @@ android {
     buildFeatures {
         compose = true
     }
+    // --- SOLUSI ERROR META-INF / INDEX.LIST ---
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/INDEX.LIST"
+            excludes += "/META-INF/DEPENDENCIES"
+            excludes += "/META-INF/io.netty.versions.properties"
+        }
+
+
+    }
+
 }
 
 dependencies {
@@ -49,27 +62,36 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.firebase.appdistribution.gradle)
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.navigation.compose)
+    implementation(libs.androidx.compose.foundation)
     testImplementation(libs.junit)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0") // Untuk konversi JSON ke Object Kotlin
-    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0") // Untuk melihat log API di Logcat
+    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
-    // --- Arsitektur & Lifecycle (MVVM) ---
-    // Sesuai batasan implementasi di SRS untuk menggunakan pola MVVM [cite: 45]
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
-    implementation("androidx.activity:activity-ktx:1.8.0")
-    implementation("androidx.fragment:fragment-ktx:1.6.1")
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 
-    // --- UI Components (Material Design) ---
-    // SRS mengharuskan tampilan berbasis standar Material Design [cite: 73]
-    implementation("com.google.android.material:material:1.10.0")
-    implementation("androidx.recyclerview:recyclerview:1.3.1")
-    implementation("androidx.cardview:cardview:1.0.0")
+    // Versi yang sangat baru
+    implementation(platform("androidx.compose:compose-bom:2024.09.00"))
+    implementation("androidx.core:core-ktx:1.17.0")
+    implementation("androidx.activity:activity-compose:1.11.0")
 
-    // --- Image Loading (Glide) ---
-    // Berguna untuk mengelola foto produk atau hewan yang disimpan di galeri/storage [cite: 74]
-    implementation("github.com.bumptech.glide:glide:4.16.0")
+
+    // Coil untuk load gambar (jika diperlukan)
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0") // Untuk GsonConverterFactory
+
+    // Kotlin Serialization (Untuk Json, ignoreUnknownKeys, dll)
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
+
+    // Lifecycle & ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
