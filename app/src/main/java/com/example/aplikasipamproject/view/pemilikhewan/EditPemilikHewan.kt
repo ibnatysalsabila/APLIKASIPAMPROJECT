@@ -95,7 +95,7 @@ fun EditPemilikHewan(
 
             if (!uiState.isEntryValid) {
                 Text(
-                    text = "Harap lengkapi semua data (@gmail.com)",
+                    text = "Harap lengkapi semua data",
                     color = Color.Red,
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(start = 16.dp)
