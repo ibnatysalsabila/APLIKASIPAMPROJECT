@@ -16,7 +16,7 @@
     <td><img src="https://github.com/user-attachments/assets/d4cc9dd8-9c1c-490b-99db-fa92b59a0062" width="250" alt="Home Hewan"></td>
     <td><img src="https://github.com/user-attachments/assets/35d8b9ba-c0e4-4d74-ad7f-6e9393a0cce0" width="250" alt="Tambah Hewan"></td>
     <td><img src="https://github.com/user-attachments/assets/9d948ead-5766-4750-a19a-5b8ce0097bcb" width="250" alt="Edit Hewan"></td> 
-    <td><img src="https://github.com/user-attachments/assets/8e181c8f-e787-4223-b5e9-0570ab82ce72" width="250" alt="Detail Hewan"></td>
+    <td><img src="https://github.com/user-attachments/assets/5169e6c6-194b-461c-a239-6c9abf2111f1" width="250" alt="Detail Hewan"></td>
   </tr>
    <tr>
     <td><img src="https://github.com/user-attachments/assets/cdf9481b-5518-469c-b0a5-c145a617aaed" width="250" alt="Home Layanan"></td>
