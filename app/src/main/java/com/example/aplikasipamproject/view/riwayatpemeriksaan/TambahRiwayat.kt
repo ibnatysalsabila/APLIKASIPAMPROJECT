@@ -12,8 +12,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.aplikasipamproject.uicontroller.route.DestinasiEntryPemeriksaan
 import com.example.aplikasipamproject.viewmodel.provider.PenyediaViewModel
-import com.example.aplikasipamproject.viewmodel.riwayatpemeriksaan.InsertPemeriksaanViewModel
 import com.example.aplikasipamproject.view.*
+import com.example.aplikasipamproject.viewmodel.riwayatpemeriksaan.InsertPemeriksaanViewModel
 import kotlinx.coroutines.launch
 
 @Composable
