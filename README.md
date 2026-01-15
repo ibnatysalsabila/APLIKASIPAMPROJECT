@@ -31,8 +31,8 @@
     <td><img src="https://github.com/user-attachments/assets/0b9bb0a1-c9ad-44d9-a14b-b060e5f8328c" width="250" alt="Detail Riwayat"></td>
   </tr>  
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/8673eb4f-1acc-431c-b840-36f18fdf467" width="250" alt="Konfirmasi Tambah"></td>
-    <td><img src="https://github.com/user-attachments/assets/7dfe7ade-e6a2-44a2-8ac5-7418aee459f" width="250" alt="Konfirmasi Ubah"></td> 
+    <td><img src="https://github.com/user-attachments/assets/be2e6e06-d654-42a3-acf5-167a8eb57fbf" width="250" alt="Konfirmasi Tambah"></td>
+    <td><img src="https://github.com/user-attachments/assets/b4d28b86-a03c-4539-985d-169176baf6c4" width="250" alt="Konfirmasi Ubah"></td> 
     <td><img src="https://github.com/user-attachments/assets/bbe59985-5e25-4843-8947-397293ed8449" width="250" alt="Konfirmasi Hapus"></td>
   </tr>
 </table>
