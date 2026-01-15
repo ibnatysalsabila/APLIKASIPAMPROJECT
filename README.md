@@ -22,7 +22,7 @@
     <td><img src="https://github.com/user-attachments/assets/cdf9481b-5518-469c-b0a5-c145a617aaed" width="250" alt="Home Layanan"></td>
     <td><img src="https://github.com/user-attachments/assets/99acaf48-9946-4fb7-b217-faefeaee9baa" width="250" alt="Tambah Layanan"></td> 
     <td><img src="https://github.com/user-attachments/assets/883f4192-5b99-439c-9c97-b0af1a444557" width="250" alt="Edit Layanan"></td> 
-    <td><img src="https://github.com/user-attachments/assets/45d0638f-5b46-4d8b-bc05-a744f57a7945" width="250" alt="Detail Layanan"></td>
+    <td><img src="https://github.com/user-attachments/assets/89d9f970-f352-47f8-aaf9-900edf341587" width="250" alt="Detail Layanan"></td>
   </tr>  
   <tr>
     <td><img src="https://github.com/user-attachments/assets/6dda49c0-dcbe-448d-bc84-e98d57f44bcc" width="250" alt="Home Riwayat"></td>
