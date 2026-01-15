@@ -34,5 +34,6 @@
     <td><img src="https://github.com/user-attachments/assets/be2e6e06-d654-42a3-acf5-167a8eb57fbf" width="250" alt="Konfirmasi Tambah"></td>
     <td><img src="https://github.com/user-attachments/assets/b4d28b86-a03c-4539-985d-169176baf6c4" width="250" alt="Konfirmasi Ubah"></td> 
     <td><img src="https://github.com/user-attachments/assets/bbe59985-5e25-4843-8947-397293ed8449" width="250" alt="Konfirmasi Hapus"></td>
+    <td><img src="https://github.com/user-attachments/assets/2f94b9aa-379e-465e-92ae-6eb29fb0313a" width="250" alt="Konfirmasi Logout"></td>
   </tr>
 </table>
