@@ -67,12 +67,13 @@ dependencies {
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation.navigation.compose)
     implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.datastore.core)
     testImplementation(libs.junit)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation(libs.androidx.datastore.preferences)
 
     // Versi yang sangat baru
     implementation(platform("androidx.compose:compose-bom:2024.09.00"))
