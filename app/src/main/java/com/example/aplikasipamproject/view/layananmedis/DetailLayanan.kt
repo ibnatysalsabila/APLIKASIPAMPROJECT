@@ -55,6 +55,7 @@ fun DetailLayananScreen(
                 is DetailLayananUiState.Success -> {
                     val layanan = state.layanan
                     DetailCardKu {
+                        DetailItemRow(icon = Icons.Default.Info, label = "ID Layanan", value = layanan.id_layanan.toString())
                         DetailItemRow(icon = Icons.Default.Info, label = "Nama Layanan", value = layanan.nama_layanan)
                         DetailItemRow(icon = Icons.Default.List, label = "Deskripsi", value = layanan.deskripsi ?: "-")
                         DetailItemRow(icon = Icons.Default.AttachMoney, label = "Biaya", value = "Rp ${layanan.biaya}")

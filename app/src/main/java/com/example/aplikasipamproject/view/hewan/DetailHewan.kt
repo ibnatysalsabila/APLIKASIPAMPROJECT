@@ -54,6 +54,7 @@ fun DetailHewanBody(
         modifier = modifier
     ) {
         DetailCardKu {
+            DetailItemRow(icon = Icons.Default.Info, label = "ID Hewan", value = hewan.id_hewan.toString())
             DetailItemRow(icon = Icons.Default.Pets, label = "Nama Hewan", value = hewan.nama_hewan)
             DetailItemRow(icon = Icons.Default.List, label = "Jenis Hewan", value = hewan.jenis_hewan)
             DetailItemRow(icon = Icons.Default.Person, label = "ID Pemilik", value = hewan.id_pemilik.toString())
